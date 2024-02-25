@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Schedule Sculptor</title>
+    <link rel="icon" href="images/sslogo.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 </head>
@@ -20,28 +21,28 @@
                 </a>
             </li>
             <li>
-                <a href="#home">
+                <a href="index.html">
                     <i class="fas fa-home"></i>
                     <span class="nav-item">Home</span>
                 </a>
             </li>
-            <li><a href="#add">
+            <li><a href="add.html">
                     <i class="fas fa-user"></i>
                     <span class="nav-item">Add Teacher</span>
                 </a></li>
-            <li><a href="#gen">
+            <li><a href="generate.html">
                     <i class="fas fa-wallet"></i>
                     <span class="nav-item">Generating Time Table</span>
                 </a></li>
-            <li><a href="#invi">
+            <li><a href="invigilation.html">
                     <i class="fas fa-chart-bar"></i>
                     <span class="nav-item">Invigilation</span>
                 </a></li>
-            <li><a href="#teach">
+            <li><a href="teachers.html">
                     <i class="fas fa-users"></i>
                     <span class="nav-item">Teachers</span>
                 </a></li>
-            <li><a href="#deal">
+            <li><a href="dealing.html">
                     <i class="fas fa-chalkboard-user"></i>
                     <span class="nav-item">Teacher & dealing Section</span>
                 </a></li>
@@ -50,120 +51,13 @@
     </nav>
 
     <section class="sec1" id="home">
-        <h1>Welcome to<br /><span class="title"> Schedule Sculptor</span></h1>
+        <h2>Welcome to</h2><br />
+        <h1> Schedule Sculptor</h1>
         <marquee class="slider" behavior="alternate" scrollamount="10">Carving out a perfect timetable</marquee>
     </section>
 
 
-    <section class="sec2" id="add">
-        <div class="form">
-            <form action="/submit_form" method="post">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" placeholder="Enter Name"><br />
-
-                <label>Department : </label>
-                <select id="department" name="departent">
-                    <option value="">--Please choose department--</option>
-                    <option value="CSE">CSE</option>
-                    <option value="ECE">ECE</option>
-                    <option value="EEE">EEE</option>
-                    <option value="IT">IT</option>
-                    <option value="MECH">MECH</option>
-                    <option value="CIVIL">CIVIL</option>
-                </select><br>
-
-                <label>Year : </label>
-                <select>
-                    <option value="">Select Year</option>
-                    <option>I</option>
-                    <option>II</option>
-                    <option>III</option>
-                    <option>IV</option>
-                </select>
-
-                <div class="sem">
-                    <label>Sem : </label>
-                    <input type="radio" id="sem1" name="sem" value="1">
-                    <label for="sem1">1</label>
-                    <input type="radio" id="sem2" name="sem" value="2">
-                    <label for="sem2">2</label>
-                </div>
-
-                <label>Section : </label>
-                <select>
-                    <option value="">Select Section</option>
-                    <option value="A">A</option>
-                    <option value="B">B</option>
-                    <option value="C">C</option>
-                </select><br />
-
-                <label>Subject : </label><input type="text" placeholder="Enter Subject"><br />
-
-                <label>No.of Peroids : </label><input type="number" placeholder="Enter no.of Peroids"><br />
-
-                <button type="submit">Add Teacher</button>
-            </form>
-        </div>
-    </section>
-
-    <section class="sec3" id="gen">
-        <!-- <img src="images/maj bg3.png" width="30%"> -->
-    </section>
-
-    <section class="sec4" id="invi">
-        <div class="left_container">
-            <button class="btn1" onclick="toggleFormVisibility()">Leisure Search</button>
-            <form id="lsForm" style="display: none;">
-                <label>Name :</label>
-                <input type="text" placeholder="Enter Name"><br />
-    
-                <label>Hour : </label>
-                <select>
-                    <option value="">Choose Hour</option>
-                    <option value="1st">1<sup>st</sup></option>
-                    <option value="2nd">2<sup>nd</sup></option>
-                    <option value="3rd">3<sup>rd</sup></option>
-                    <option value="4th">4<sup>th</sup></option>
-                    <option value="5th">5<sup>th</sup></option>
-                    <option value="6th">6<sup>th</sup></option>
-                    <option value="7th">7<sup>th</sup></option>
-                </select><br />
-    
-                <label>Day: </label><input type="text" placeholder="Enter Day"><br />
-    
-                <button class="btn2">Search</button>
-            </form>
-        </div>
-
-        <div class="right_container">
-            <button onclick="toggleForm('iForm')">Invigilation</button>
-            <form id="iForm" style="display: none;">
-                <label>From : </label><input type="number">
-                <label>To : </label><input type="number">
-            </form>
-        </div>
-
-    </section>
-
-    <section class="sec5" id="teach">
-
-    </section>
-
-    <section class="sec6" id="deal">
-
-    </section>
-
-<script>
-     function toggleFormVisibility() {
-            var form = document.getElementById('lsForm');
-            form.style.display = form.style.display === 'none' ? 'block' : 'none';
-        }
-
-        function toggleForm(formId) {
-            var form = document.getElementById(formId);
-            form.style.display = form.style.display === 'none' ? 'block' : 'none';
-        }
-    </script>
+   
 </body>
 
 </html>
