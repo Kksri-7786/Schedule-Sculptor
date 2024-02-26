@@ -80,7 +80,11 @@ a:hover {
     /* background-image: linear-gradient( 135deg,  #1E2AD2 30%, #FFA6B7 100%); */
     border-radius: 15px;
 }
-
+a.active{
+    background-color:rgb(2, 145, 43);
+    border-radius:15px;
+    border-top-right-radius: 15px;
+}
 nav:hover {
     width: 280px;
     transform: all 0.5s ease;
