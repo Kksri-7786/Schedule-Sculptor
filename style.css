@@ -81,7 +81,7 @@ a:hover {
 }
 a.active{
     color:black;
-    font-weight:500px;
+    font-weight:500;
     background-color:rgb(2, 145, 43);
     border-radius:15px;
     border-top-right-radius: 15px;
