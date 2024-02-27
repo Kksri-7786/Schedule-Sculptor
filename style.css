@@ -84,7 +84,6 @@ a.active{
     font-weight:500;
     background-color:rgb(2, 145, 43);
     border-radius:15px;
-    border-top-right-radius: 15px;
 }
 nav:hover {
     width: 280px;
