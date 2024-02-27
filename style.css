@@ -77,10 +77,11 @@ a:hover {
     background: #0c8442;
     color:rgb(255, 255, 255);
     background:linear-gradient(to right,#333399 30%,#FF00CC);
-    /* background-image: linear-gradient( 135deg,  #1E2AD2 30%, #FFA6B7 100%); */
     border-radius: 15px;
 }
 a.active{
+    color:black;
+    font-weight:500px;
     background-color:rgb(2, 145, 43);
     border-radius:15px;
     border-top-right-radius: 15px;
