@@ -274,7 +274,7 @@ h1 {
     border-radius:10px;
 }
 
-table {
+.sec3 table {
     border-collapse: collapse;
     width: 60%;
     text-align:center;
@@ -286,7 +286,7 @@ table {
     box-shadow: 0 0 10px rgba(0, 0, 0, 1.1);
 }
 
-th, td {
+.sec3 th, td {
     color:white;
     background: transparent;
     border: 1px solid #ddd;
@@ -323,9 +323,10 @@ th {
     border-radius:15px;
     background:transparent;
 }
-.sec3 .btn1:hover{
+.sec3 .btn1.clicked{
+    font-weight:500;
     color:rgb(0, 0, 0);
-    background-color: rgb(52, 240, 115);
+    background-color: rgb(44, 160, 237);
 }
  .sec3 .btn2{
     width:120px;
@@ -338,9 +339,10 @@ th {
     border-radius:15px;
     background:transparent;
 }
-.sec3 .btn2:hover{
+.sec3 .btn2.clicked{
+    font-weight:500;
     color:rgb(0, 0, 0);
-    background-color: rgb(52, 240, 115);
+    background-color: rgb(44, 160, 237);
 }
 .sec3 .btn3{
     width:150px;
@@ -353,9 +355,10 @@ th {
     border-radius:15px;
     background:transparent;
 }
-.sec3 .btn3:hover{
+.sec3 .btn3.clicked{
+    font-weight:500;
     color:rgb(0, 0, 0);
-    background-color: rgb(52, 240, 115);
+    background-color: rgb(44, 160, 237);
 }
 
                                                             /* SECTION 3 ENDS */
