@@ -254,6 +254,109 @@ h1 {
     filter: drop-shadow(25px 55px 25px rgb(0, 0, 0));
     transform: scaleX(1);
 }
+.sec3 div{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.sec3 label{
+    color:whitesmoke;
+    padding:10px;
+    margin-top:25px;
+    margin-left:70px;
+}
+.sec3 select{
+    margin-left:0;
+    margin-top:29px;
+    height:25px;
+    cursor:pointer;
+    border-radius:10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    text-align:center;
+    /* margin:auto; */
+    margin-left:350px;
+    margin-top:100px;
+    color:white;
+    background:transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1.1);
+}
+
+th, td {
+    color:white;
+    background: transparent;
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align:center;
+}
+
+th {
+    box-shadow: 1px 1px 3px 3px rgb(182, 182, 182);
+    border:2px solid white;
+    background:transparent;
+    backdrop-filter: blur(10px);
+    background:transparent;
+    color:white;
+}
+.sec3 input[type="checkbox"] {
+    width: 20px; 
+    height: 20px;
+    cursor:pointer;
+    background-color: transparent;
+    border: none;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sec3 .btn1{
+    width:70px;
+    height:30px;
+    margin-left:36rem;
+    margin-top:100px;
+    color:white;
+    cursor:pointer;
+    border:2px solid white;
+    border-radius:15px;
+    background:transparent;
+}
+.sec3 .btn1:hover{
+    color:rgb(0, 0, 0);
+    background-color: rgb(52, 240, 115);
+}
+ .sec3 .btn2{
+    width:120px;
+    height:30px;
+    margin-left:30px; 
+    margin-top:100px;
+    color:white;
+    cursor:pointer;
+    border:2px solid white;
+    border-radius:15px;
+    background:transparent;
+}
+.sec3 .btn2:hover{
+    color:rgb(0, 0, 0);
+    background-color: rgb(52, 240, 115);
+}
+.sec3 .btn3{
+    width:150px;
+    height:30px;
+    margin-left:30px;
+    margin-top:100px;
+    color:white;
+    cursor:pointer;
+    border:2px solid white;
+    border-radius:15px;
+    background:transparent;
+}
+.sec3 .btn3:hover{
+    color:rgb(0, 0, 0);
+    background-color: rgb(52, 240, 115);
+}
 
                                                             /* SECTION 3 ENDS */
 
