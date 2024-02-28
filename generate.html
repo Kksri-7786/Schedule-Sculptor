@@ -125,13 +125,26 @@
                 </tr>
             </tbody>
         </table>
-        <button class="btn1">Labs</button>
-        <button class="btn2">Designation</button>
-        <button class="btn3">Total No.of hours</button>
-
+        <button class="btn1" onclick="toggleColor1()">Labs</button>
+        <button class="btn2" onclick="toggleColor2()">Designation</button>
+        <button class="btn3" onclick="toggleColor3()">Total No.of hours</button>
 
     </section>
 
+    <script>
+        function toggleColor1() {
+            var button = document.querySelector('.btn1');
+            button.classList.toggle('clicked');
+        }
+        function toggleColor2() {
+            var button = document.querySelector('.btn2');
+            button.classList.toggle('clicked');
+        }
+        function toggleColor3() {
+            var button = document.querySelector('.btn3');
+            button.classList.toggle('clicked');
+        }
+    </script>
 </body>
 
 </html>
